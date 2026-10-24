@@ -4,17 +4,12 @@ import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
 
-# ---------------------------------------------------------
-# 1. Page Configuration
-# ---------------------------------------------------------
 st.set_page_config(page_title="Cat vs Dog Classifier", page_icon="🐾", layout="centered")
 
 st.title("🐾 Cat vs Dog Image Classifier")
 st.write("Upload an image of a cat or a dog to test your trained PyTorch AlexNet model!")
 
-# ---------------------------------------------------------
-# 2. Model Architecture
-# ---------------------------------------------------------
+
 class NotebookAlexNet(nn.Module):
     def __init__(self):
         super(NotebookAlexNet, self).__init__()
@@ -53,9 +48,6 @@ class NotebookAlexNet(nn.Module):
         x = self.classifier(x)
         return x
 
-# ---------------------------------------------------------
-# 3. Model Loader Function
-# ---------------------------------------------------------
 @st.cache_resource
 def load_model(model_path='cat_dog_cnn.pth'):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -68,9 +60,6 @@ def load_model(model_path='cat_dog_cnn.pth'):
     model.eval()
     return model, device
 
-# ---------------------------------------------------------
-# Image Preprocessing Pipeline (Updated to 128x128)
-# ---------------------------------------------------------
 transform = transforms.Compose([
     transforms.Resize((128, 128)),  # Matches 2304 feature map size
     transforms.ToTensor(),
@@ -80,9 +69,6 @@ transform = transforms.Compose([
     )
 ])
 
-# ---------------------------------------------------------
-# 5. Streamlit Inference UI
-# ---------------------------------------------------------
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
