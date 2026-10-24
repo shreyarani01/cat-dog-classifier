@@ -36,8 +36,8 @@ An end-to-end Computer Vision web application built with **PyTorch** and **Strea
 
 ## 📸 Application Demo
 
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 9 43 58 PM" src="https://github.com/user-attachments/assets/fabec788-167b-4983-b4aa-4c07abdeab8d" />
+<img width="1440" height="900" alt="Screenshot 2026-10-24 at 9 59 59 PM" src="https://github.com/user-attachments/assets/3ab83605-ea63-4291-ade9-6efc0a47e581" />
 
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 9 44 03 PM" src="https://github.com/user-attachments/assets/a7913cfb-d426-4b84-bc41-845cad1df29b" />
+<img width="1440" height="900" alt="Screenshot 2026-10-24 at 10 00 07 PM" src="https://github.com/user-attachments/assets/c87f277a-7253-4434-9e11-286452f085dc" />
 
 
