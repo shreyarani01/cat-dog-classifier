@@ -6,7 +6,7 @@ An end-to-end Computer Vision web application built with **PyTorch** and **Strea
 
 ## 📌 Project Overview
 * **Model Architecture:** Custom modified AlexNet Convolutional Neural Network (CNN).
-* **Frameworks & Tools:** PyTorch, torchvision, Streamlit, PIL.
+* **Frameworks & Tools:** PyTorch, torchvision, Streamlit.
 * **Input Spatial Resolution:** $128 \times 128$ RGB images.
 * **Key Features:** Real-time inference, image preprocessing pipelines, and dynamic confidence score visualization.
 
@@ -33,3 +33,11 @@ An end-to-end Computer Vision web application built with **PyTorch** and **Strea
    ```bash
    git clone [https://github.com/shreyarani01/cat-dog-classifier.git](https://github.com/shreyarani01/cat-dog-classifier.git)
    cd cat-dog-classifier
+
+## 📸 Application Demo
+
+<img width="1440" height="900" alt="Screenshot 2026-10-24 at 9 43 58 PM" src="https://github.com/user-attachments/assets/fabec788-167b-4983-b4aa-4c07abdeab8d" />
+
+<img width="1440" height="900" alt="Screenshot 2026-10-24 at 9 44 03 PM" src="https://github.com/user-attachments/assets/a7913cfb-d426-4b84-bc41-845cad1df29b" />
+
+
